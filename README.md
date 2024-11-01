@@ -83,3 +83,8 @@ The system includes error handling for:
 - Prim's Algorithm: O(V² + E) time complexity
 
 Where V is the number of vertices and E is the number of edges.
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/ef594eaa-4451-444a-b749-b3c10e4c372b)
+
