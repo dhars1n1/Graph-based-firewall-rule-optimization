@@ -1,0 +1,41 @@
+Network Analysis Results
+=======================
+
+Starting graph traversals...
+
+Starting DFS traversal...
+Visited vertex 0
+Visited vertex 2
+Access denied from 2 to 3 due to firewall rules
+Visited vertex 1
+Visited vertex 3
+
+Starting BFS traversal...
+Visited vertex 0
+Visited vertex 2
+Access denied from 2 to 3 due to firewall rules
+Visited vertex 1
+Visited vertex 3
+Access denied from 3 to 2 due to firewall rules
+
+Starting Dijkstra's algorithm...
+Shortest path from 0 to 1: Distance = 5
+1 0 
+Shortest path from 0 to 2: Distance = 3
+2 0 
+Shortest path from 0 to 3: Distance = 9
+3 1 0 
+
+Starting Prim's algorithm...
+Updated vertex 2, parent: 0, bandwidth: 150
+Updated vertex 1, parent: 0, bandwidth: 100
+Updated vertex 3, parent: 1, bandwidth: 80
+Updated vertex 2, parent: 1, bandwidth: 50
+Skipping edge 2-3 due to firewall rules
+
+Edges in the Minimum Spanning Tree:
+Edge: 0 - 1, Bandwidth: 100, Latency: 5
+Edge: 1 - 2, Bandwidth: 50, Latency: 2
+Edge: 1 - 3, Bandwidth: 80, Latency: 4
+
+Total network bandwidth in MST: 230
